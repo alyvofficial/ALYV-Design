@@ -1,0 +1,51 @@
+.active {
+  color: #00E0FF;
+}
+header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+ul,
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.socialBox {
+  display: flex;
+  gap: 7px;
+}
+ul li>a:hover {
+  color: #00E0FF;
+}
+.barMenu {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  ul, .socialBox {
+    display: none;
+  }
+  header {
+    height: 5vh;
+    padding: 0 15px 0 15px; 
+
+  }
+  .barMenu {
+    display: block;
+  }
+  .barMenu, .userIcon {
+    width: 15px;
+  }
+}

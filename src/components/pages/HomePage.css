@@ -1,0 +1,354 @@
+/* Main section start */
+.section1 {
+  height: 80vh;
+  background: url(../../../public/images/Shapes.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+h1 {
+  width: 496px;
+  font-family: Montserrat;
+  font-size: 80px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+  background: linear-gradient(116deg, #00e0ff 0%, #ff00b8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mainSectionBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  padding: 0 50px;
+}
+.altText {
+  display: flex;
+  gap: 17px;
+}
+.altTitle {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.customer,
+.experience {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.altParagraph {
+  color: #a1a1a1;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+}
+.altP1 {
+  width: 89px;
+  height: 11px;
+  flex-shrink: 0;
+}
+.altP2 {
+  width: 116px;
+}
+/* Main Section End */
+
+/* Services start */
+.section2 {
+  height: 100vh;
+  /* background: url(../../../public/images/serviceBG.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 200px 27px 200px;
+}
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}
+.listBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+.title {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #00e0ff;
+}
+.lists {
+  width: 245px;
+  height: 569px;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(0deg, #ff00b8, #00e0ff);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 40px 25px 19px 25px;
+  transition: 0.4s all;
+}
+.lists:hover {
+  border-image-source: linear-gradient(180deg, #ff00b8, #00e0ff);
+}
+ol {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.olList {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.listButton {
+  border: none;
+  width: 111px;
+  height: 44px;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid #ff00b8;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: 0.4s all;
+}
+.listButton:hover {
+  border: 1px solid #00e0ff;
+}
+/* Services end */
+
+/* Footer start */
+.section3 {
+  height: 100vh;
+  background: url(../../../public/images/FrameFooter.svg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 69px 0 149px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.nameSubject {
+  display: flex;
+  gap: 30px;
+}
+#name,
+#subject {
+  width: 241px;
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 20px 0 20px 14px;
+  background: transparent;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+input:focus {
+  outline: none;
+}
+#email {
+  width: 512px;
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 20px 0 20px 14px;
+}
+#message {
+  width: 512px;
+  height: 223px;
+  resize: none;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 20px 0 20px 14px;
+}
+#sendButton {
+  width: 512px;
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer > p {
+  color: white;
+  color: #fff;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* Footer End */
+
+/* Media */
+
+@media screen and (max-width: 768px) {
+  .section1 {
+    height: 90vh;
+    background: url(../../../public/images/shapesMedia.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  h1 {
+    width: 363px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 1.92px;
+    background: linear-gradient(116deg, #00e0ff 0%, #ff00b8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .mainSectionBox {
+    padding: 0 15px;
+    margin-top: 5vh;
+  }
+  .altText {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .altTitle {
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 121.875%; /* 43.875px */
+    letter-spacing: 1.8px;
+  }
+  .altParagraph {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 121.875%; /* 17.063px */
+    letter-spacing: 0.7px;
+  }
+  /* Main Section End */
+
+  /* Services Section start */
+  .section2 {
+    padding: 70px 50px 27px 50px;
+    height: auto;
+  }
+  .logo {
+    display: none;
+  }
+  h2 {
+    font-family: Montserrat;
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    margin-bottom: 49px;
+  }
+  .listBox {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .listBox > img {
+    display: none;
+  }
+  /* services end */
+
+  /* footer start */
+  .section3 {
+    background: url(../../../public/images/ShapeFooterMedia.svg);
+    background-repeat: no-repeat;
+  }
+
+  form {
+    width: 358px;
+    gap: 21px;
+  }
+  #name,
+  #subject {
+    width: 164px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(15px);
+  }
+  #email {
+    width: 358px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(15px);
+  }
+  #message {
+    width: 358px;
+    height: 223px;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(15px);
+  }
+  #sendButton {
+    width: 358px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(15px);
+  }
+}
